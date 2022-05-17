@@ -26,6 +26,9 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-a
 #ShadowSocksR Plus+
 git clone https://github.com/fw876/helloworld.git package/helloworld
 
+#多拨
+git clone https://github.com/monokoo/luci-app-syncdial.git package/luci-app-syncdial
+
 #passwall
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 #git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
