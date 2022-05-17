@@ -17,6 +17,9 @@
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
+# 主题
+git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
+
 #  关机
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
 
@@ -24,8 +27,8 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-a
 git clone https://github.com/fw876/helloworld.git package/helloworld
 
 #passwall
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+#git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
 
 #passwall2
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
